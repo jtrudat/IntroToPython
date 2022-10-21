@@ -1,0 +1,580 @@
+<html>
+  <body>
+    <div
+      style="
+        min-height: 11in;
+        box-sizing: border-box;
+        width: 8.5in;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: initial;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        overflow: hidden;
+        padding: 0.5in 0.5in 0.5in 0.5in;
+      "
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 4.934722222222222in;
+          height: 0.3655555555555556in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+          min-width: 100px;
+        "
+        ><h4
+          style="
+            box-sizing: border-box;
+            font-family: Arial;
+            font-size: 10pt;
+            color: rgb(102, 102, 102);
+            width: 100%;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            overflow: hidden;
+            margin: 0in 0in 0.06in 0in;
+          "
+          >SD10 Principles of Programming with Python | Functional Programming
+          Tricks</h4
+        ></div
+      ><div
+        ><div
+          style="
+            box-sizing: border-box;
+            width: 3.5349999999999997in;
+            height: 0.4305555555555556in;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            min-width: 100px;
+          "
+          ><h2
+            style="
+              box-sizing: border-box;
+              font-family: Arial;
+              font-size: 18pt;
+              color: rgb(23, 108, 238);
+              width: 100%;
+              font-weight: normal;
+              font-style: normal;
+              text-decoration: initial;
+              overflow: hidden;
+              margin: 0in 0in 0.125in 0in;
+            "
+            >Functional Programming Tricks</h2
+          ></div
+        ></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 3.4727777777777775in;
+          height: 0.6944444444444444in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+          min-width: 100px;
+        "
+        ><h1
+          style="
+            box-sizing: border-box;
+            font-family: Arial;
+            font-size: 28pt;
+            color: rgb(0, 51, 153);
+            width: 100%;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            overflow: hidden;
+            margin: 0in 0in 0.25in 0in;
+          "
+          >Lesson Companion</h1
+        ></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 5.418333333333333in;
+          height: 0.2822222222222222in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+          min-width: 100px;
+        "
+        ><p
+          style="
+            box-sizing: border-box;
+            font-family: Arial;
+            font-size: 12pt;
+            width: 100%;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            overflow: hidden;
+            margin: 0in 0in 0.06in 0in;
+          "
+          >Use these questions throughout the lesson to check your
+          understanding:</p
+        ></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 5in;
+          height: 1.4650000000000003in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+        "
+        ><img
+          data-component="code-snippet"
+          data-code="def perimeter(side_length):
+    return 4 * side_length
+"
+          style="width: 100%; height: 100%"
+          alt="undefined"
+          src="lessons-ppp-4-functional-programming-in-python-Lesson-Companion.1.png" /></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-component="code-exercise"
+        data-metadata='{"testScript":"\nimport inspect;\nif \"perimeter\" not in locals():\n    raise Exception(f\"Define a lambda function named &apos;perimeter()&apos;.\")\n\ntest1 = perimeter(1)\ntest2 = perimeter(0)\ntest3 = perimeter(3)\n\nif test1 != 4:\n    raise Exception(\"Make sure to return 4 x the side length\")\nif test2 != 0:\n    raise Exception(\"Make sure to return 4 x the side length\")\nif test3 != 12:\n    raise Exception(\"Make sure to return 4 x the side length\")\n","postScript":"","starterCode":"\n\n","setupScript":"","language":"python","showConsole":null,"showDOM":null,"fileName":null}'
+        key='{"testScript":"\nimport inspect;\nif \"perimeter\" not in locals():\n    raise Exception(f\"Define a lambda function named &apos;perimeter()&apos;.\")\n\ntest1 = perimeter(1)\ntest2 = perimeter(0)\ntest3 = perimeter(3)\n\nif test1 != 4:\n    raise Exception(\"Make sure to return 4 x the side length\")\nif test2 != 0:\n    raise Exception(\"Make sure to return 4 x the side length\")\nif test3 != 12:\n    raise Exception(\"Make sure to return 4 x the side length\")\n","postScript":"","starterCode":"\n\n","setupScript":"","language":"python","showConsole":null,"showDOM":null,"fileName":null}'
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 1</div
+        ><div style="padding: 5px 20px 20px"
+          ><div style="padding: 5px 20px 20px"
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+            >
+              <div
+                style="
+                  box-sizing: border-box;
+                  width: 5.495000000000001in;
+                  height: 0.2822222222222222in;
+                  font-weight: normal;
+                  font-style: normal;
+                  text-decoration: initial;
+                  min-width: 100px;
+                "
+                ><p
+                  style="
+                    box-sizing: border-box;
+                    font-family: Arial;
+                    font-size: 12pt;
+                    width: 100%;
+                    font-weight: normal;
+                    font-style: normal;
+                    text-decoration: initial;
+                    overflow: hidden;
+                    margin: 0in 0in 0.06in 0in;
+                  "
+                  >Rewrite the function shown above as a lambda function called
+                  'perimeter'.</p
+                ></div
+              ></div
+            ><div style="display: flex"
+              ><div style="flex: 2; width: 60%">
+                <textarea data-code-editor="true"> </textarea></div
+              ><div
+                style="
+                  flex: 1;
+                  padding: 5px 20px 20px;
+                  flex-direction: column;
+                  display: flex;
+                "
+                ><div style="flex: 1" data-dom-tray="true"
+                  ><h3
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                    "
+                    >Output:</h3
+                  ><div
+                    ><iframe
+                      style="border-style: none; width: 100%"
+                      data-dom-output="true"
+                    ></iframe></div></div
+                ><div style="flex: 1" data-console-tray="true"
+                  ><h3
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                    "
+                    >Console:</h3
+                  ><div
+                    style="max-height: 200px; overflow: scroll"
+                    data-console-output="true"
+                  ></div></div
+                ><div style="flex: 1" data-reset-button="true"
+                  ><button
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                      cursor: pointer;
+                      right: 100px;
+                      bottom: 10px;
+                      position: absolute;
+                    "
+                    >Reset</button
+                  ></div
+                ><div style="flex: 1" data-replay-button="true"
+                  ><button
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                      cursor: pointer;
+                      right: 10px;
+                      bottom: 10px;
+                      position: absolute;
+                      justify-content: flex-end;
+                    "
+                    >Replay</button
+                  ></div
+                ></div
+              ></div
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+              data-test-output="true"
+            ></div></div></div></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 5in;
+          height: 1.9600000000000002in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+        "
+        ><img
+          data-component="code-snippet"
+          data-code='my_lst = []
+alpha = "abcdefghijklmnopqrstuvwxyz"
+
+for i in range(10):
+	my_lst.append(alpha[i])'
+          style="width: 100%; height: 100%"
+          alt="undefined"
+          src="lessons-ppp-4-functional-programming-in-python-Lesson-Companion.2.png" /></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-component="code-exercise"
+        data-metadata='{"testScript":"\nimport inspect;\nif \"my_lst\" not in locals():\n    raise Exception(f\"Define a list named my_lst.\")\n\nif my_lst != [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;, &apos;e&apos;, &apos;f&apos;, &apos;g&apos;, &apos;h&apos;, &apos;i&apos;, &apos;j&apos;]:\n    raise Exception(\"Make sure your list comprehension returns the same list as the for loop\")\n","postScript":"","starterCode":"\n\n","setupScript":"","language":"python","showConsole":null,"showDOM":null,"fileName":null}'
+        key='{"testScript":"\nimport inspect;\nif \"my_lst\" not in locals():\n    raise Exception(f\"Define a list named my_lst.\")\n\nif my_lst != [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;, &apos;e&apos;, &apos;f&apos;, &apos;g&apos;, &apos;h&apos;, &apos;i&apos;, &apos;j&apos;]:\n    raise Exception(\"Make sure your list comprehension returns the same list as the for loop\")\n","postScript":"","starterCode":"\n\n","setupScript":"","language":"python","showConsole":null,"showDOM":null,"fileName":null}'
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 2</div
+        ><div style="padding: 5px 20px 20px"
+          ><div style="padding: 5px 20px 20px"
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+            >
+              <div
+                style="
+                  box-sizing: border-box;
+                  width: 4.408333333333333in;
+                  height: 0.2822222222222222in;
+                  font-weight: normal;
+                  font-style: normal;
+                  text-decoration: initial;
+                  min-width: 100px;
+                "
+                ><p
+                  style="
+                    box-sizing: border-box;
+                    font-family: Arial;
+                    font-size: 12pt;
+                    width: 100%;
+                    font-weight: normal;
+                    font-style: normal;
+                    text-decoration: initial;
+                    overflow: hidden;
+                    margin: 0in 0in 0.06in 0in;
+                  "
+                  >Rewrite the code shown above using a list comprehension.</p
+                ></div
+              ></div
+            ><div style="display: flex"
+              ><div style="flex: 2; width: 60%">
+                <textarea data-code-editor="true"> </textarea></div
+              ><div
+                style="
+                  flex: 1;
+                  padding: 5px 20px 20px;
+                  flex-direction: column;
+                  display: flex;
+                "
+                ><div style="flex: 1" data-dom-tray="true"
+                  ><h3
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                    "
+                    >Output:</h3
+                  ><div
+                    ><iframe
+                      style="border-style: none; width: 100%"
+                      data-dom-output="true"
+                    ></iframe></div></div
+                ><div style="flex: 1" data-console-tray="true"
+                  ><h3
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                    "
+                    >Console:</h3
+                  ><div
+                    style="max-height: 200px; overflow: scroll"
+                    data-console-output="true"
+                  ></div></div
+                ><div style="flex: 1" data-reset-button="true"
+                  ><button
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                      cursor: pointer;
+                      right: 100px;
+                      bottom: 10px;
+                      position: absolute;
+                    "
+                    >Reset</button
+                  ></div
+                ><div style="flex: 1" data-replay-button="true"
+                  ><button
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                      cursor: pointer;
+                      right: 10px;
+                      bottom: 10px;
+                      position: absolute;
+                      justify-content: flex-end;
+                    "
+                    >Replay</button
+                  ></div
+                ></div
+              ></div
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+              data-test-output="true"
+            ></div></div></div></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 5in;
+          height: 2.1100000000000003in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+        "
+        ><img
+          data-component="code-snippet"
+          data-code='my_dict = dict()
+names = ["Alice","Bob","Charlie"]
+
+for i in names:
+	my_dict[i] = i.upper()'
+          style="width: 100%; height: 100%"
+          alt="undefined"
+          src="lessons-ppp-4-functional-programming-in-python-Lesson-Companion.3.png" /></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-component="code-exercise"
+        data-metadata='{"testScript":"\nimport inspect;\nif \"my_dict\" not in locals():\n    raise Exception(f\"Define a dictionary named &apos;my_dict&apos;.\")\n\nif my_dict != {&apos;Alice&apos;: &apos;ALICE&apos;, &apos;Bob&apos;: &apos;BOB&apos;, &apos;Charlie&apos;: &apos;CHARLIE&apos;}:\n  raise Exception(\"Make sure your dictionary comprehension returns the same list as the for loop\")\n","postScript":"","starterCode":"\n\n","setupScript":"","language":"python","showConsole":null,"showDOM":null,"fileName":null}'
+        key='{"testScript":"\nimport inspect;\nif \"my_dict\" not in locals():\n    raise Exception(f\"Define a dictionary named &apos;my_dict&apos;.\")\n\nif my_dict != {&apos;Alice&apos;: &apos;ALICE&apos;, &apos;Bob&apos;: &apos;BOB&apos;, &apos;Charlie&apos;: &apos;CHARLIE&apos;}:\n  raise Exception(\"Make sure your dictionary comprehension returns the same list as the for loop\")\n","postScript":"","starterCode":"\n\n","setupScript":"","language":"python","showConsole":null,"showDOM":null,"fileName":null}'
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 3</div
+        ><div style="padding: 5px 20px 20px"
+          ><div style="padding: 5px 20px 20px"
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+            >
+              <div
+                style="
+                  box-sizing: border-box;
+                  width: 4.92in;
+                  height: 0.2822222222222222in;
+                  font-weight: normal;
+                  font-style: normal;
+                  text-decoration: initial;
+                  min-width: 100px;
+                "
+                ><p
+                  style="
+                    box-sizing: border-box;
+                    font-family: Arial;
+                    font-size: 12pt;
+                    width: 100%;
+                    font-weight: normal;
+                    font-style: normal;
+                    text-decoration: initial;
+                    overflow: hidden;
+                    margin: 0in 0in 0.06in 0in;
+                  "
+                  >Rewrite the code shown above using a dictionary
+                  comprehension.</p
+                ></div
+              ></div
+            ><div style="display: flex"
+              ><div style="flex: 2; width: 60%">
+                <textarea data-code-editor="true"> </textarea></div
+              ><div
+                style="
+                  flex: 1;
+                  padding: 5px 20px 20px;
+                  flex-direction: column;
+                  display: flex;
+                "
+                ><div style="flex: 1" data-dom-tray="true"
+                  ><h3
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                    "
+                    >Output:</h3
+                  ><div
+                    ><iframe
+                      style="border-style: none; width: 100%"
+                      data-dom-output="true"
+                    ></iframe></div></div
+                ><div style="flex: 1" data-console-tray="true"
+                  ><h3
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                    "
+                    >Console:</h3
+                  ><div
+                    style="max-height: 200px; overflow: scroll"
+                    data-console-output="true"
+                  ></div></div
+                ><div style="flex: 1" data-reset-button="true"
+                  ><button
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                      cursor: pointer;
+                      right: 100px;
+                      bottom: 10px;
+                      position: absolute;
+                    "
+                    >Reset</button
+                  ></div
+                ><div style="flex: 1" data-replay-button="true"
+                  ><button
+                    style="
+                      font-family: Arial;
+                      font-size: 15pt;
+                      font-weight: bold;
+                      margin: 0px;
+                      cursor: pointer;
+                      right: 10px;
+                      bottom: 10px;
+                      position: absolute;
+                      justify-content: flex-end;
+                    "
+                    >Replay</button
+                  ></div
+                ></div
+              ></div
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+              data-test-output="true"
+            ></div></div></div></div
+    ></div>
+    <script>
+      window.workerUrl =
+        "https://hackerusa-ce.github.io/curriculum-runtime/worker.v2.js";
+    </script>
+    <script src="https://hackerusa-ce.github.io/curriculum-runtime/runtime.v2.js"></script>
+  </body>
+</html>
