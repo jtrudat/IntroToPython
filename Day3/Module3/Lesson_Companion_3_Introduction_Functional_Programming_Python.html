@@ -1,7 +1,458 @@
-
-            <html>
-                <body>
-                    <div style="min-height: 11in; box-sizing: border-box; width: 8.5in; font-weight: normal; font-style: normal; text-decoration: initial; border-color: black; border-style: solid; border-width: 2px; overflow: hidden; padding: 0.5in 0.5in 0.5in 0.5in;"><div style="box-sizing: border-box; width: 6.209722222222222in; height: 0.3655555555555556in; font-weight: normal; font-style: normal; text-decoration: initial; min-width: 100px;"><h4 style="box-sizing: border-box; font-family: Arial; font-size: 10pt; color: rgb(102, 102, 102); width: 100%; font-weight: normal; font-style: normal; text-decoration: initial; overflow: hidden; margin: 0in 0in 0.06in 0in;">SD10 Principles of Programming with Python | Introduction to Functional Programming with Python</h4></div><div><div style="box-sizing: border-box; width: 5.829999999999999in; height: 0.4305555555555556in; font-weight: normal; font-style: normal; text-decoration: initial; min-width: 100px;"><h2 style="box-sizing: border-box; font-family: Arial; font-size: 18pt; color: rgb(23, 108, 238); width: 100%; font-weight: normal; font-style: normal; text-decoration: initial; overflow: hidden; margin: 0in 0in 0.125in 0in;">Introduction to Functional Programming with Python</h2></div></div><div style="box-sizing: border-box; width: 3.4727777777777775in; height: 0.6944444444444444in; font-weight: normal; font-style: normal; text-decoration: initial; min-width: 100px;"><h1 style="box-sizing: border-box; font-family: Arial; font-size: 28pt; color: rgb(0, 51, 153); width: 100%; font-weight: normal; font-style: normal; text-decoration: initial; overflow: hidden; margin: 0in 0in 0.25in 0in;">Lesson Companion</h1></div><div style="box-sizing: border-box; width: 5.418333333333333in; height: 0.2822222222222222in; font-weight: normal; font-style: normal; text-decoration: initial; min-width: 100px;"><p style="box-sizing: border-box; font-family: Arial; font-size: 12pt; width: 100%; font-weight: normal; font-style: normal; text-decoration: initial; overflow: hidden; margin: 0in 0in 0.06in 0in;">Use these questions throughout the lesson to check your understanding:</p></div><div style="border: 1px solid #aaa; background-color: rgb(255, 255, 255); position: relative; min-height: 50px; margin: 5px 5px 50px 5px;" data-component="short-answer-exercise" data-metadata="{&quot;sampleAnswer&quot;:&quot;\n\t\tIt has no side effects, and given the same input, it will always produce the same output.\n\t    &quot;,&quot;key&quot;:&quot;DPdA8aeVLvggUSH&quot;}"><div style="font-family: Arial; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid #AAA; background-color: rgb(245, 245, 245); padding: 8px 20px; margin: 0px;">Exercise 1:		What do we mean when we say that a function is "pure"?	    </div><div style="padding: 5px 20px 20px;"><div style="padding: 5px 20px 20px;"><div style="font-family: Arial; margin-top: 1.5em; margin-bottom: 1.5em;"></div><div style="display: flex;"><textarea style="flex: 1; min-height: 100px; font-family: Arial; padding: 10px; outline: none;" data-textarea="true"></textarea><textarea style="flex: 1; min-height: 100px; font-family: Arial; padding: 10px; outline: none; display: none;" data-sample-answer="true" disabled="true"></textarea></div><button style="display: none; background-color: rgba(0, 0, 0, 0); border-style: none; cursor: pointer; outline: none; text-decoration: underline;" data-show-sample-answer-button="true">Show Sample Answer</button></div></div></div><div style="border: 1px solid #aaa; background-color: rgb(255, 255, 255); position: relative; min-height: 50px; margin: 5px 5px 50px 5px;" data-component="short-answer-exercise" data-metadata="{&quot;sampleAnswer&quot;:&quot;\n\t\tNo, it has side effects, so it is not pure. \n\t    &quot;,&quot;key&quot;:&quot;IpXMlBpVtO4Buyq&quot;}"><div style="font-family: Arial; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid #AAA; background-color: rgb(245, 245, 245); padding: 8px 20px; margin: 0px;">Exercise 2:		Consider a function that uses looping to update information in an argument array that is a global variable. Is this function pure? 	    </div><div style="padding: 5px 20px 20px;"><div style="padding: 5px 20px 20px;"><div style="font-family: Arial; margin-top: 1.5em; margin-bottom: 1.5em;"></div><div style="display: flex;"><textarea style="flex: 1; min-height: 100px; font-family: Arial; padding: 10px; outline: none;" data-textarea="true"></textarea><textarea style="flex: 1; min-height: 100px; font-family: Arial; padding: 10px; outline: none; display: none;" data-sample-answer="true" disabled="true"></textarea></div><button style="display: none; background-color: rgba(0, 0, 0, 0); border-style: none; cursor: pointer; outline: none; text-decoration: underline;" data-show-sample-answer-button="true">Show Sample Answer</button></div></div></div><div style="border: 1px solid #aaa; background-color: rgb(255, 255, 255); position: relative; min-height: 50px; margin: 5px 5px 50px 5px;" data-question-id="1" data-component="multiple-choice"><div style="font-family: Arial; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid #AAA; background-color: rgb(245, 245, 245); padding: 8px 20px; margin: 0px;">Exercise 3</div><div style="padding: 5px 20px 20px;"> <div style="box-sizing: border-box; width: 1.8516666666666666in; height: 0.2822222222222222in; font-weight: normal; font-style: normal; text-decoration: initial; min-width: 100px;"><p style="box-sizing: border-box; font-family: Arial; font-size: 12pt; width: 100%; font-weight: normal; font-style: normal; text-decoration: initial; overflow: hidden; margin: 0in 0in 0.06in 0in;">What is a pure function?</p></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{&quot;correct&quot;:true,&quot;feedback&quot;:&quot;&quot;}"><input type="radio">A function that does not produce or rely on side effects <div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{&quot;feedback&quot;:&quot;&quot;}"><input type="radio">A method inside of a class<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{}"><input type="radio">A function that doesn't return anything<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{}"><input type="radio">A function that doesn't accept any parameters<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div></div></div><div style="border: 1px solid #aaa; background-color: rgb(255, 255, 255); position: relative; min-height: 50px; margin: 5px 5px 50px 5px;" data-question-id="1" data-component="multiple-choice"><div style="font-family: Arial; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid #AAA; background-color: rgb(245, 245, 245); padding: 8px 20px; margin: 0px;">Exercise 4</div><div style="padding: 5px 20px 20px;"> <div style="box-sizing: border-box; width: 2.4266666666666667in; height: 0.2822222222222222in; font-weight: normal; font-style: normal; text-decoration: initial; min-width: 100px;"><p style="box-sizing: border-box; font-family: Arial; font-size: 12pt; width: 100%; font-weight: normal; font-style: normal; text-decoration: initial; overflow: hidden; margin: 0in 0in 0.06in 0in;">What is a higher-order function?</p></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{&quot;correct&quot;:true,&quot;feedback&quot;:&quot;They can also return functions&quot;}"><input type="radio">A function that accepts a function as an argument<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{&quot;feedback&quot;:&quot;&quot;}"><input type="radio">A function that raises a number to a power<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{}"><input type="radio">A function that sorts items in a list<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div></div></div><div style="box-sizing: border-box; width: 5in; height: 2.1950000000000003in; font-weight: normal; font-style: normal; text-decoration: initial;"><img data-component="code-snippet" data-code="def is_consonant(letter):
+<html>
+  <body>
+    <div
+      style="
+        min-height: 11in;
+        box-sizing: border-box;
+        width: 8.5in;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: initial;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        overflow: hidden;
+        padding: 0.5in 0.5in 0.5in 0.5in;
+      "
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 6.209722222222222in;
+          height: 0.3655555555555556in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+          min-width: 100px;
+        "
+        ><h4
+          style="
+            box-sizing: border-box;
+            font-family: Arial;
+            font-size: 10pt;
+            color: rgb(102, 102, 102);
+            width: 100%;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            overflow: hidden;
+            margin: 0in 0in 0.06in 0in;
+          "
+          >SD10 Principles of Programming with Python | Introduction to
+          Functional Programming with Python</h4
+        ></div
+      ><div
+        ><div
+          style="
+            box-sizing: border-box;
+            width: 5.829999999999999in;
+            height: 0.4305555555555556in;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            min-width: 100px;
+          "
+          ><h2
+            style="
+              box-sizing: border-box;
+              font-family: Arial;
+              font-size: 18pt;
+              color: rgb(23, 108, 238);
+              width: 100%;
+              font-weight: normal;
+              font-style: normal;
+              text-decoration: initial;
+              overflow: hidden;
+              margin: 0in 0in 0.125in 0in;
+            "
+            >Introduction to Functional Programming with Python</h2
+          ></div
+        ></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 3.4727777777777775in;
+          height: 0.6944444444444444in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+          min-width: 100px;
+        "
+        ><h1
+          style="
+            box-sizing: border-box;
+            font-family: Arial;
+            font-size: 28pt;
+            color: rgb(0, 51, 153);
+            width: 100%;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            overflow: hidden;
+            margin: 0in 0in 0.25in 0in;
+          "
+          >Lesson Companion</h1
+        ></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 5.418333333333333in;
+          height: 0.2822222222222222in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+          min-width: 100px;
+        "
+        ><p
+          style="
+            box-sizing: border-box;
+            font-family: Arial;
+            font-size: 12pt;
+            width: 100%;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: initial;
+            overflow: hidden;
+            margin: 0in 0in 0.06in 0in;
+          "
+          >Use these questions throughout the lesson to check your
+          understanding:</p
+        ></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-component="short-answer-exercise"
+        data-metadata='{"sampleAnswer":"\n\t\tIt has no side effects, and given the same input, it will always produce the same output.\n\t    ","key":"DPdA8aeVLvggUSH"}'
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 1: What do we mean when we say that a function is "pure"? </div
+        ><div style="padding: 5px 20px 20px"
+          ><div style="padding: 5px 20px 20px"
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+            ></div
+            ><div style="display: flex">
+              <textarea
+                style="
+                  flex: 1;
+                  min-height: 100px;
+                  font-family: Arial;
+                  padding: 10px;
+                  outline: none;
+                "
+                data-textarea="true"
+              ></textarea
+              ><textarea
+                style="
+                  flex: 1;
+                  min-height: 100px;
+                  font-family: Arial;
+                  padding: 10px;
+                  outline: none;
+                  display: none;
+                "
+                data-sample-answer="true"
+                disabled="true"
+              ></textarea></div
+            ><button
+              style="
+                display: none;
+                background-color: rgba(0, 0, 0, 0);
+                border-style: none;
+                cursor: pointer;
+                outline: none;
+                text-decoration: underline;
+              "
+              data-show-sample-answer-button="true"
+              >Show Sample Answer</button
+            ></div
+          ></div
+        ></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-component="short-answer-exercise"
+        data-metadata='{"sampleAnswer":"\n\t\tNo, it has side effects, so it is not pure. \n\t    ","key":"IpXMlBpVtO4Buyq"}'
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 2: Consider a function that uses looping to update
+          information in an argument array that is a global variable. Is this
+          function pure? </div
+        ><div style="padding: 5px 20px 20px"
+          ><div style="padding: 5px 20px 20px"
+            ><div
+              style="
+                font-family: Arial;
+                margin-top: 1.5em;
+                margin-bottom: 1.5em;
+              "
+            ></div
+            ><div style="display: flex">
+              <textarea
+                style="
+                  flex: 1;
+                  min-height: 100px;
+                  font-family: Arial;
+                  padding: 10px;
+                  outline: none;
+                "
+                data-textarea="true"
+              ></textarea
+              ><textarea
+                style="
+                  flex: 1;
+                  min-height: 100px;
+                  font-family: Arial;
+                  padding: 10px;
+                  outline: none;
+                  display: none;
+                "
+                data-sample-answer="true"
+                disabled="true"
+              ></textarea></div
+            ><button
+              style="
+                display: none;
+                background-color: rgba(0, 0, 0, 0);
+                border-style: none;
+                cursor: pointer;
+                outline: none;
+                text-decoration: underline;
+              "
+              data-show-sample-answer-button="true"
+              >Show Sample Answer</button
+            ></div
+          ></div
+        ></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-question-id="1"
+        data-component="multiple-choice"
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 3</div
+        ><div style="padding: 5px 20px 20px">
+          <div
+            style="
+              box-sizing: border-box;
+              width: 1.8516666666666666in;
+              height: 0.2822222222222222in;
+              font-weight: normal;
+              font-style: normal;
+              text-decoration: initial;
+              min-width: 100px;
+            "
+            ><p
+              style="
+                box-sizing: border-box;
+                font-family: Arial;
+                font-size: 12pt;
+                width: 100%;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: initial;
+                overflow: hidden;
+                margin: 0in 0in 0.06in 0in;
+              "
+              >What is a pure function?</p
+            ></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata='{"correct":true,"feedback":""}'
+            ><input type="radio" />A function that does not produce or rely on
+            side effects
+            <div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata='{"feedback":""}'
+            ><input type="radio" />A method inside of a class<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata="{}"
+            ><input type="radio" />A function that doesn't return anything<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata="{}"
+            ><input type="radio" />A function that doesn't accept any
+            parameters<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div></div></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-question-id="1"
+        data-component="multiple-choice"
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 4</div
+        ><div style="padding: 5px 20px 20px">
+          <div
+            style="
+              box-sizing: border-box;
+              width: 2.4266666666666667in;
+              height: 0.2822222222222222in;
+              font-weight: normal;
+              font-style: normal;
+              text-decoration: initial;
+              min-width: 100px;
+            "
+            ><p
+              style="
+                box-sizing: border-box;
+                font-family: Arial;
+                font-size: 12pt;
+                width: 100%;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: initial;
+                overflow: hidden;
+                margin: 0in 0in 0.06in 0in;
+              "
+              >What is a higher-order function?</p
+            ></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata='{"correct":true,"feedback":"They can also return functions"}'
+            ><input type="radio" />A function that accepts a function as an
+            argument<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata='{"feedback":""}'
+            ><input type="radio" />A function that raises a number to a
+            power<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata="{}"
+            ><input type="radio" />A function that sorts items in a list<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div></div></div
+      ><div
+        style="
+          box-sizing: border-box;
+          width: 5in;
+          height: 2.1950000000000003in;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: initial;
+        "
+        ><img
+          data-component="code-snippet"
+          data-code="def is_consonant(letter):
     vowels = ['a', 'e', 'i', 'o', 'u']
     if(letter not in vowels): 
         return True
@@ -9,11 +460,115 @@
       return False
    
 filter(is_consonant, ['k', 'o', 'a', 'l', 'a'])
-" style="width: 100%; height: 100%;" alt="undefined" src="https://digitalskills.instructure.com/courses/6527/files/1705517/download"></div><div style="border: 1px solid #aaa; background-color: rgb(255, 255, 255); position: relative; min-height: 50px; margin: 5px 5px 50px 5px;" data-question-id="1" data-component="multiple-choice"><div style="font-family: Arial; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid #AAA; background-color: rgb(245, 245, 245); padding: 8px 20px; margin: 0px;">Exercise 5</div><div style="padding: 5px 20px 20px;"> <div style="box-sizing: border-box; width: 5.886666666666667in; height: 0.2822222222222222in; font-weight: normal; font-style: normal; text-decoration: initial; min-width: 100px;"><p style="box-sizing: border-box; font-family: Arial; font-size: 12pt; width: 100%; font-weight: normal; font-style: normal; text-decoration: initial; overflow: hidden; margin: 0in 0in 0.06in 0in;">Given the code snippet above, what is the expected output of the function call?</p></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{&quot;feedback&quot;:&quot;This would be a filter for vowels&quot;}"><input type="radio">['o', 'a', 'a'] <div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{&quot;correct&quot;:true,&quot;feedback&quot;:&quot;&quot;}"><input type="radio">['k','l']<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{}"><input type="radio">['k', 'o', 'a', 'l', 'a']<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div><div style="font-family: Arial; cursor: pointer; padding: 5px; margin: 0px;" data-answer-for="1" data-metadata="{}"><input type="radio">[]]<div style="font-family: Arial; margin-left: 20px; display: inline;" data-feedback-for="1"></div></div></div></div></div>
-                    <script>
-                        window.workerUrl = 'https://hackerusa-ce.github.io/curriculum-runtime/worker.v2.js'
-                    </script>
-                    <script src='https://hackerusa-ce.github.io/curriculum-runtime/runtime.v2.js'></script>
-                </body>
-            </html>    
-        
+"
+          style="width: 100%; height: 100%"
+          alt="undefined"
+          src="lessons-ppp-3-introduction-to-functional-programming-with-python-Lesson-Companion.1.png" /></div
+      ><div
+        style="
+          border: 1px solid #aaa;
+          background-color: rgb(255, 255, 255);
+          position: relative;
+          min-height: 50px;
+          margin: 5px 5px 50px 5px;
+        "
+        data-question-id="1"
+        data-component="multiple-choice"
+        ><div
+          style="
+            font-family: Arial;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #aaa;
+            background-color: rgb(245, 245, 245);
+            padding: 8px 20px;
+            margin: 0px;
+          "
+          >Exercise 5</div
+        ><div style="padding: 5px 20px 20px">
+          <div
+            style="
+              box-sizing: border-box;
+              width: 5.886666666666667in;
+              height: 0.2822222222222222in;
+              font-weight: normal;
+              font-style: normal;
+              text-decoration: initial;
+              min-width: 100px;
+            "
+            ><p
+              style="
+                box-sizing: border-box;
+                font-family: Arial;
+                font-size: 12pt;
+                width: 100%;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: initial;
+                overflow: hidden;
+                margin: 0in 0in 0.06in 0in;
+              "
+              >Given the code snippet above, what is the expected output of the
+              function call?</p
+            ></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata='{"feedback":"This would be a filter for vowels"}'
+            ><input type="radio" />['o', 'a', 'a']
+            <div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata='{"correct":true,"feedback":""}'
+            ><input type="radio" />['k','l']<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata="{}"
+            ><input type="radio" />['k', 'o', 'a', 'l', 'a']<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div
+          ><div
+            style="
+              font-family: Arial;
+              cursor: pointer;
+              padding: 5px;
+              margin: 0px;
+            "
+            data-answer-for="1"
+            data-metadata="{}"
+            ><input type="radio" />[]]<div
+              style="font-family: Arial; margin-left: 20px; display: inline"
+              data-feedback-for="1"
+            ></div></div></div></div
+    ></div>
+    <script>
+      window.workerUrl =
+        "https://hackerusa-ce.github.io/curriculum-runtime/worker.v2.js";
+    </script>
+    <script src="https://hackerusa-ce.github.io/curriculum-runtime/runtime.v2.js"></script>
+  </body>
+</html>
