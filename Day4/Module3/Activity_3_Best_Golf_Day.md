@@ -85,7 +85,7 @@ import requests
 from matplotlib import pyplot as plt
 from datetime   import datetime
 
-API_URL  = 'https://weather-api-node-wisc.herokuapp.com/weather/'
+API_URL  = 'https://goweather.herokuapp.com/weather/'
 cityName = 'seattle' # feel free to enter your own city here!
 request  = requests.get(API_URL + city)
 response = request.json()
@@ -107,7 +107,7 @@ import requests
 from matplotlib import pyplot as plt
 from datetime   import datetime
 
-API_URL  = 'https://weather-api-node-wisc.herokuapp.com/weather/'
+API_URL  = 'https://goweather.herokuapp.com/weather/'
 cityName = 'seattle' # feel free to enter your own city here!
 request  = requests.get(API_URL + city)
 response = request.json()
