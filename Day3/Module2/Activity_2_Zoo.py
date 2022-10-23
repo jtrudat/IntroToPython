@@ -69,18 +69,22 @@ salmon = Fish("salmon")
 robin  = Bird("robin")
 bonobo = Chimp("bonobo")
 
-nycZoo.add_animals([salmon, robin, bonobo])
+animals = [salmon, robin, bonobo]
+
+nycZoo.add_animals(animals)
 
 alice   = Customer("Alice",   25)
 bob     = Customer("Bob",     20)
 charlie = Customer("Charlie", 10)
 dave    = Customer("Dave",    30)
 
-for c in [alice, bob, charlie, dave]:
-    c.buy_ticket()
-    c.enter_zoo(nycZoo)
+customers = [alice, bob, charlie, dave]
+
+for customer in customers:
+    customer.buy_ticket()
+    customer.enter_zoo(nycZoo)
 
 nycZoo.visit_animals()
 
-for c in [alice, bob, charlie, dave]:
-    c.exit_zoo(nycZoo)
+for customer in customers:
+    customer.exit_zoo(nycZoo)

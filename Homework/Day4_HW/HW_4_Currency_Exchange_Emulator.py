@@ -9,7 +9,7 @@ class Currency:
         'USD': 1.0         # us dollar
     }
 
-    def __init__(self, value, unit="USD"):
+    def __init__(self, value, unit = "USD"):
         self.value = value
         self.unit = unit
 
@@ -29,7 +29,9 @@ class Currency:
         pass
 
     def __add__(self,other):
-        #Defines the '+' operator. If other is a Currency object, the currency values are added and the result will be the unit of self. If other is an int or a float, other will be treated as a USD value.
+        # Defines the '+' operator.
+        # If other is a Currency object, the currency values are added and the result will be the unit of self.
+        # If other is an int or a float, other will be treated as a USD value.
         pass
 
 v1 = Currency(23.43, "EUR")
