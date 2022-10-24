@@ -2,13 +2,13 @@
 
 We have been asked by a local animal shelter to create an application that shares fun animal facts alongside photos of the animals available for adoption. They hope this will be a fun way to get potential adoptees to engage with the shelter and find the animals loving new homes.
 
-They just want us to create a proof of concept so let's use this opportunity and use a whole new stack to build the application. We will use Python and Flask, and no database for this initial sample.
+They just want us to create a proof of concept so let's use this opportunity and use a whole new stack to build the application. We will use Python and Flask, and no database for this initial sample. All the activities for Day 5 will use the PetFax directory.
 
 They have given us some data to play around with, so let's get started!
 
 ## Setup
 
-The files are located in the [Day5\Module1\PetFax](PetFax) directory. It has a JSON file and images. Open the [pets.json](PetFax/pets.json) file and take a second to analyze the data structure. We won't use it for a little while, but it is still good to look it over before starting.
+The files are located in the [Day5/PetFax](../PetFax/) directory. It has a JSON file and images. Open the [pets.json](../PetFax/pets.json) file and take a second to analyze the data structure. We won't use it for a little while, but it is still good to look it over before starting.
 
 ## Installing Flask
 

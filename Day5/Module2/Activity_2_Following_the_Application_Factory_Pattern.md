@@ -5,7 +5,7 @@ In the last activity, we started working on PetFax. We set up Flask to ensure we
 ## Getting Started
 
 1. Open your terminal.
-2. Navigate to [PetFax](/Day5/Module1/PetFax).
+2. Navigate to [PetFax](../PetFax).
 3. Open it in your code editor of choice.
 4. Activate the virtual environment by running `. venv/bin/activate` in the root of the repository.
 5. Run the app with `flask run --reload`.
