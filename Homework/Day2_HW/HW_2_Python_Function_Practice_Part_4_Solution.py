@@ -9,17 +9,17 @@ print(max_num(15,30,2))
 
 # Write a Python function called mult_list()  to multiply all the numbers in a list.
 
-def mult_list(lst):
+def mult_list(list):
     #if empty list, return 0
-    if len(lst) == 0:
+    if len(list) == 0:
         return 0
     #product starts with first element of list
-    prod = lst[0]
+    prod = list[0]
 
     #go through list elements and multiply them together
-    if len(lst) > 1:
-        for i in lst[1:]:
-            prod = prod * i
+    if len(list) > 1:
+        for index in list:
+            prod = prod * index 
 
     return prod
 
@@ -64,13 +64,13 @@ def pascal(n):
             #create correct row, then add to triangle (this row will be 1 longer than row before it)
             length = len(row_prev)+1
 
-            for i in range(length):
+            for index in range(length):
             #first number is 1
-                if i == 0:
+                if index == 0:
                     row.append(1)
                 #intermediate nunmbers get added from previous rows
-                elif i > 0 and i < length-1:
-                    row.append(triangle[row_number-1][i-1]+triangle[row_number-1][i])
+                elif index > 0 and index < length-1:
+                    row.append(triangle[row_number-1][index-1]+triangle[row_number-1][index])
             #last number is 1
             else:
                 row.append(1)
