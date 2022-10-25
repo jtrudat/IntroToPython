@@ -85,7 +85,7 @@ import requests
 from matplotlib import pyplot as plt
 from datetime   import datetime
 
-API_URL  = 'https://weather-api-node-wisc.herokuapp.com/weather/'
+API_URL  = 'https://goweather.herokuapp.com/weather/'
 cityName = 'seattle' # feel free to enter your own city here!
 request  = requests.get(API_URL + city)
 response = request.json()
@@ -96,6 +96,7 @@ print(response)
 Now feel free to run your code! Let's see what this API is returning.
 
 **The API should have successfully returned weather data inside of an object, but it is not easily read.**
+
 ![The API should have successfully returned weather data inside of an object, but it is not easily read.](lessons-ppp-4-enabling-venv-and-implementing-packages-Activity.4.png)
 
 Add the following code to your script to polish up that return and make it a touch easier to read:
@@ -106,7 +107,7 @@ import requests
 from matplotlib import pyplot as plt
 from datetime   import datetime
 
-API_URL  = 'https://weather-api-node-wisc.herokuapp.com/weather/'
+API_URL  = 'https://goweather.herokuapp.com/weather/'
 cityName = 'seattle' # feel free to enter your own city here!
 request  = requests.get(API_URL + city)
 response = request.json()
@@ -119,6 +120,7 @@ pp.pprint(response)
 Expected return:
 
 **After implementing PrettyPrinter, our json response looks more readable with correct code-indenting.**
+
 ![After implementing PrettyPrinter, our json response looks more readable with correct code-indenting.](lessons-ppp-4-enabling-venv-and-implementing-packages-Activity.1.png)
 
 **Now that's what I call pretty printing.**
@@ -192,6 +194,7 @@ print('to_graph values: ', to_graph.values())
 ```
 
 **The expected return of printing our graph's keys and values should display two usable lists.**
+
 ![The expected return of printing our graph's keys and values should display two usable lists.](lessons-ppp-4-enabling-venv-and-implementing-packages-Activity.2.png)
 
 Excellent! We have two beautiful lists ready to be plotted. One last step and we're ready to go! Add the following code to your script:
@@ -202,6 +205,7 @@ plt.show() # paints the graph to your screen
 ```
 
 **Our scatter plot now shows 3 points of data, displaying the most optimal day for golfing.**
+
 ![Our scatter plot now shows 3 points of data, displaying the most optimal day for golfing.](lessons-ppp-4-enabling-venv-and-implementing-packages-Activity.3.png)
 
 Now that's what I call glorious golf graphing! Surely we can now use this as our cutting-edge to get the most excellent tee-times. Who knew a little computer snake could accomplish so much!
