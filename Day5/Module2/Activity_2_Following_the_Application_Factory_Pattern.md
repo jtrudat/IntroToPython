@@ -5,10 +5,14 @@ In the last activity, we started working on PetFax. We set up Flask to ensure we
 ## Getting Started
 
 1. Open your terminal.
-2. Navigate to [PetFax](../PetFax).
+2. Navigate to [Day5/PetFax](../PetFax).
 3. Open it in your code editor of choice.
-4. Activate the virtual environment by running `. venv/bin/activate` in the root of the repository.
-5. Run the app with `flask run --reload`.
+4. Create the virtual environment if it does not exist.
+   - `python3 -m venv venv`
+5. Activate the virtual environment by running the command below for your operating system.
+   - MacOS -> `. venv/bin/activate`
+   - Windows -> `& .\venv\Scripts\Activate.ps1`
+6. Run the app with `flask run --reload`.
 
 ## Create the Application Factory
 

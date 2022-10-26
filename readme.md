@@ -190,14 +190,14 @@ The ninth day of Principles of Programming with Python focuses on preparing lear
 
 ## Course Assignments
 
-| Number |                 Assignment Name |  Assigned |                         Due |
-|--------|---------------------------------|---------- |-----------------------------|
-|      1 | Local Python Setup              | Module 01 | Module 02                   |
-|      2 | Python Function Practice Part 4 | Module 02 | Module 03                   |
-|      3 | Reflecting on Coding Paradigms  | Module 03 | Module 04                   |
-|      4 | Currency Exchange Emulator      | Module 04 | Module 05                   |
-|      5 | Static Files and Styling        | Module 05 | Module 06                   |
-|      6 | APIs with Flask                 | Module 06 | Module 07                   |
-|      7 | Practice with Data Structures   | Module 07 | Module 08                   |
-|      8 | BFS and DFS                     | Module 08 | Module 09                   |
-|      9 | Interview Practice              | Module 09 | (Advanced Topics) Module 01 |
+| Number |                                                                             Assignment Name |  Assigned |                         Due |
+|--------|---------------------------------------------------------------------------------------------|---------- |-----------------------------|
+|      1 | [Local Python Setup](Homework/Day1_HW/HW_1_Local_Python_Setup.md)                           | Module 01 | Module 02                   |
+|      2 | [Python Function Practice Part 4](Homework/Day2_HW/HW_2_Python_Function_Practice_Part_4.md) | Module 02 | Module 03                   |
+|      3 | Reflecting on Coding Paradigms                                                              | Module 03 | Module 04                   |
+|      4 | Currency Exchange Emulator                                                                  | Module 04 | Module 05                   |
+|      5 | Static Files and Styling                                                                    | Module 05 | Module 06                   |
+|      6 | APIs with Flask                                                                             | Module 06 | Module 07                   |
+|      7 | Practice with Data Structures                                                               | Module 07 | Module 08                   |
+|      8 | BFS and DFS                                                                                 | Module 08 | Module 09                   |
+|      9 | Interview Practice                                                                          | Module 09 | (Advanced Topics) Module 01 |
